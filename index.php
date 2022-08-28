@@ -61,15 +61,19 @@
 </section>
 <section id="temmais">
 	<div class="container">
-		<h2 class="titulo alt">E tem mais!</h2>
-		<img src="./img/temmais-garrafas.png">
+		<h2 class="titulo">E tem mais!</h2>
+		<div class="row">
+			<div class="col-12 p0">
+				<img src="./img/temmais-garrafas.png">
+			</div>
+		</div>
 		<h3>156 mil</h3>
 		<p>minigarrafas PET de Coca-Cola usadas durante o festival vão se tornar novas embalagens de <nobr>Coca-Cola</nobr> após reciclagem.</p>
 	</div>
 </section>
 <section id="descartou">
 	<div class="container">
-		<h2 class="titulo alt">Descartou, juntou, ganhou</h2>
+		<h2 class="titulo">Descartou, juntou, ganhou</h2>
 		<p>Aumente o som e diminua os resíduos! Para que essa iniciativa seja eficaz, contamos com o seu engajamento! Em troca, você ainda ganha brindes, experiências e ajuda o meio ambiente. Bora?</p>
 		<ul>
 			<li>
@@ -105,6 +109,153 @@
         	<img src="./img/pontos/pontos_3.png">
         	<img src="./img/pontos/pontos_4.png">
         </div>
+	</div>
+</section>
+<section id="numeros">
+	<div class="container">
+		<h2 class="titulo">Nossos <br>números</h2>
+		<p>Quer saber mais? Clique em um tema abaixo e veja como a <nobr>Coca-Cola</nobr> Brasil está avançando em diferentes áreas!</p>
+		<input checked type="radio" name="nmb" class="nmb-inp nmb-inp-1" id="nmb-inp-1" />
+		<input type="radio" name="nmb" class="nmb-inp nmb-inp-2" id="nmb-inp-2" />
+		<input type="radio" name="nmb" class="nmb-inp nmb-inp-3" id="nmb-inp-3" />
+		<input type="radio" name="nmb" class="nmb-inp nmb-inp-4" id="nmb-inp-4" />
+		<input type="radio" name="nmb" class="nmb-inp nmb-inp-5" id="nmb-inp-5" />
+		<input type="radio" name="nmb" class="nmb-inp nmb-inp-6" id="nmb-inp-6" />
+		<ul class="botoes">
+			<li><label onclick="goNumbers()" for="nmb-inp-1">Mundo sem resíduos</label></li>
+			<li><label onclick="goNumbers()" for="nmb-inp-2">Reciclar pelo Brasil</label></li>
+			<li><label onclick="goNumbers()" for="nmb-inp-3">Eficiência hídrica</label></li>
+			<li><label onclick="goNumbers()" for="nmb-inp-4">Bolsa floresta</label></li>
+			<li><label onclick="goNumbers()" for="nmb-inp-5">Água+Acesso</label></li>
+			<li><label onclick="goNumbers()" for="nmb-inp-6">Energia e clima</label></li>
+		</ul>
+		<div class="dados dados-1">
+			<h3>Mundo sem resíduos</h3>
+			<div class="info">
+				<img src="./img/numbers/recicle.svg">
+				<div>
+					<h4 class="counter" data-counter-value="100" data-counter-after="%">100%</h4>
+					<p>é o volume das embalagens que a companhia coloca no mercado que terão o destino correto até 2030.</p>
+				</div>
+			</div>
+			<div class="info">
+				<img src="./img/numbers/bottles.svg">
+				<div>
+					<h4 class="counter" data-counter-value="100" data-counter-after="%">100%</h4>
+					<p>das embalagens utilizadas pela Coca-Cola Company serão feitas de material reciclável até 2025.</p>
+				</div>
+			</div>
+		</div>
+		<div class="dados dados-2">
+			<h3>Reciclar pelo Brasil</h3>
+			<div class="info">
+				<img src="./img/numbers/coop.svg">
+				<div>
+					<h4 class="counter" data-counter-value="200" data-counter-after="">200</h4>
+					<p>cooperativas e associações apoiadas.</p>
+				</div>
+			</div>
+			<div class="info">
+				<img src="./img/numbers/scav.svg">
+				<div>
+					<h4 class="counter" data-counter-value="4.5" data-counter-after=" mil">4,5 mil</h4>
+					<p>catadores beneficiados.</p>
+				</div>
+			</div>
+			<div class="info">
+				<img src="./img/numbers/recicle.svg">
+				<div>
+					<h4 class="counter" data-counter-value="330" data-counter-after=" mil">330 mil</h4>
+					<p>toneladas de resíduos recicláveis.</p>
+				</div>
+			</div>
+			<p class="help">*Reciclar pelo Brasil foi lançado em 2017 por meio de uma parceria entre a Coca-Cola Brasil e empresas do setor de alimentos e bebidas.</p>
+		</div>
+		<div class="dados dados-3">
+			<h3>Eficiência hídrica</h3>
+			<div class="info">
+				<img src="./img/numbers/water.svg">
+				<div>
+					<h4 class="counter" data-counter-value="-38.9" data-counter-after="%">-38,9%</h4>
+					<p>de redução acumulada do uso da água desde 2001.</p>
+				</div>
+			</div>
+			<div class="info">
+				<img src="./img/numbers/tap.svg">
+				<div>
+					<h4 class="counter" data-counter-value="1.55" data-counter-after="">1,55</h4>
+					<p>litro de água por litro de bebida (L/L) - índice de eficiência hídrica bateu recorde em 2020.</p>
+				</div>
+			</div>
+			<p class="help">*Desde 2015, a empresa devolve para a natureza e para a sociedade um volume superior a toda a água captada.</p>
+		</div>
+		<div class="dados dados-4">
+			<h3>Bolsa floresta</h3>
+			<div class="info">
+				<img src="./img/numbers/comunity.svg">
+				<div>
+					<h4 class="counter" data-counter-value="504" data-counter-after="">504</h4>
+					<p>comunidades beneficiadas no Amazonas.</p>
+				</div>
+			</div>
+			<div class="info">
+				<img src="./img/numbers/trees.svg">
+				<div>
+					<h4 class="counter" data-counter-value="103" data-counter-after=" mil">103 mil</h4>
+					<p>hectares conservados e protegidos da Floresta e da bacia hidrográfica amazônicas.</p>
+				</div>
+			</div>
+			<p class="help">*Por meio do investimento viabilizado pela Coca-Cola na iniciativa em parceria com a Fundação Amazônia Sustentável (FAS).</p>
+		</div>
+		<div class="dados dados-5">
+			<h3>Água+acesso</h3>
+			<div class="info">
+				<img src="./img/numbers/people.svg">
+				<div>
+					<h4 class="counter" data-counter-value="130" data-counter-after=" mil">130 mil</h4>
+					<p>pessoas beneficiadas.</p>
+				</div>
+			</div>
+			<div class="info">
+				<img src="./img/numbers/comunity.svg">
+				<div>
+					<h4 class="counter" data-counter-value="349" data-counter-after="">349</h4>
+					<p>comunidades.</p>
+				</div>
+			</div>
+			<div class="info">
+				<img src="./img/numbers/brazil.svg">
+				<div>
+					<h4 class="counter" data-counter-value="8" data-counter-after="">8</h4>
+					<p>estados brasileiros.</p>
+				</div>
+			</div>
+			<p class="help">*Programa para contribuir com a ampliação e melhoria do acesso à água tratada em comunidades rurais e isoladas do país.</p>
+		</div>
+		<div class="dados dados-6">
+			<h3>Energia e clima</h3>
+			<div class="info">
+				<img src="./img/numbers/co2.svg">
+				<div>
+					<h4 class="counter" data-counter-value="25" data-counter-after="%">25%</h4>
+					<p>é o volume que vamos reduzir, até 2030, em emissões totais de carbono em relação aos níveis de 2015.</p>
+				</div>
+			</div>
+			<div class="info">
+				<img src="./img/numbers/bottles.svg">
+				<div>
+					<h4 class="counter" data-counter-value="33" data-counter-after="%">33%</h4>
+					<p>da energia consumida pela Solar, nossa engarrafadora, foi proveniente de fontes renováveis.</p>
+				</div>
+			</div>
+			<div class="info">
+				<img src="./img/numbers/energy.svg">
+				<div>
+					<h4 class="counter" data-counter-value="100" data-counter-after="%">100%</h4>
+					<p>é a meta de energia renovável já em 2025 na Solar.</p>
+				</div>
+			</div>
+		</div>
 	</div>
 </section>
 <?php include_once 'footer.php' ?>

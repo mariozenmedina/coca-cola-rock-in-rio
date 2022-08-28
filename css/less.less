@@ -1,5 +1,5 @@
 /********************************* CORES *********************************/
-@vermelho: #e3202b;
+@vermelho: #DD0E1D;
 
 @preto: #000;
 @escuro: #222;
@@ -302,16 +302,16 @@ nav#menu{
 	}
 }
 #temmais{
-	.bpreto; padding-top: 80px; padding-bottom: 80px;
+	.bpreto; padding-top: 80px; padding-bottom: 80px; overflow: hidden;
 	.container{
 		h2.titulo{ .h2-titulo('../img/h2-wave-preta.svg', @vermelho); .mb1; }
-		img{ .mb2; }
+		img{ .mb2; width: 100%; }
 		h3{ .uc; .w800; .t42; .cbranco; }
 		p{ .t18; .w600; .cbranco; }
 	}
 }
 #descartou{
-	padding-top: 80px; padding-bottom: 80px;
+	padding-top: 80px; padding-bottom: 80px; overflow: hidden;
 	.container{
 		h2.titulo{ .h2-titulo('../img/h2-wave-branca.svg', @preto); .mb1; }
 		p{ .t14; .w600; }
@@ -340,6 +340,54 @@ nav#menu{
 		.pontos{
 			display: flex; align-items: center; justify-content: center;
 			img{ width: 24%; margin-right: 5px; }
+		}
+	}
+}
+#numeros{
+	.bvermelho; padding-top: 80px; padding-bottom: 580px; position: relative; overflow: hidden;
+	.container{
+		h2.titulo{ .h2-titulo('../img/h2-wave-vermelha.svg', @preto); .mb1; }
+		img{ .mb2; width: 100%; }
+		p{ .t14; .cbranco; }
+		ul.botoes{
+			.p0; margin: 30px 0; display: flex; align-items: center;
+			justify-content: space-between; flex-wrap: wrap;
+			li{
+				width: 48%;
+				label{
+					.bpreto; .cvermelho; .ib; width: 100%;
+					.tc; .uc; .w800; .t10; height: 25px;
+					display: flex; align-items: center;
+					justify-content: center; margin-bottom: 15px;
+					.transition; .slow;
+				}
+			}
+		}
+		.dados{
+			height: 500px; position: absolute; left: 0; padding: 0 15px;
+			width: 100%; .transition; transform: translateX(200%);
+			h3{ .uc; .w800; .t22; .cbranco; .mb1; }
+			.info{
+				display: flex; align-items: flex-start; justify-content: center; .mb05;
+				img{ width: 65px; margin-top: 20px; margin-right: 20px; }
+				&>div{
+					width: 235px;
+					h4{ .uc; .cbranco; .t48; .w800; }
+				}
+			}
+			p.help{ .t12; .w400; }
+		}
+
+		input.nmb-inp{
+			display: none;
+			.nmb-inp(@index: 1) when (@index =< 6){
+				&.nmb-inp-@{index}:checked{
+					&~ ul.botoes li:nth-child(@{index}) label{ .cbranco; }
+					&~ .dados-@{index}{ transform: translateX(0%); }
+				}
+				.nmb-inp(@index+1);
+			}
+			.nmb-inp;
 		}
 	}
 }
