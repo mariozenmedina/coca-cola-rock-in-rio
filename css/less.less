@@ -70,7 +70,9 @@
 
 /********************************* GERAL *********************************/
 html,body{ .m0; .p0; }
-body{ padding-bottom: 2000px; }
+body{
+	max-width: 480px; margin: 0 auto;
+}
 *{
 	font-family: 'TCCC', 'Montserrat', sans-serif;
 	-webkit-box-sizing: border-box;
@@ -273,11 +275,11 @@ nav#menu{
 #construindo{
 	padding-top: 80px; padding-bottom: 80px;
 	.container{
-		position: relative;
+		position: relative; max-width: 360px; margin: 0 auto;
 		&.items{
 			background-image: url('../img/construindo-icons.png');
 			background-repeat: no-repeat;
-			background-position: top 435px center;
+			background-position: top 440px center;
 			*{ position: relative; z-index: 10; }
 		}
 		h2.titulo{ .h2-titulo('../img/h2-wave-branca.svg', @preto); }
@@ -388,6 +390,76 @@ nav#menu{
 				.nmb-inp(@index+1);
 			}
 			.nmb-inp;
+		}
+	}
+}
+#retornaveis{
+	.bpreto; padding-top: 80px; padding-bottom: 80px;
+	background-image: url(../img/retornaveis-back.svg);
+	background-position: right bottom;
+	background-repeat: no-repeat;
+	background-size: 383px;
+	background-attachment: fixed;
+	.container{
+		h2.titulo{ .h2-titulo('../img/h2-wave-preta.svg', @vermelho); .mb05; }
+		p{ .t14; .cbranco; }
+		h3{ .cbranco; .w800; .t18; .mb1; margin-top: 45px; }
+		.iframe{
+			position: relative; overflow: hidden;
+  			width: 100%; padding-top: 56.25%;
+  			iframe{
+  				position: absolute; top: 0; left: 0; bottom: 0; right: 0;
+  				width: 100%; height: 100%;
+  			}
+		}
+	}
+}
+#pordentro{
+	.bgelo; padding-top: 80px; padding-bottom: 80px;
+	.container{
+		h2.titulo{ .h2-titulo('../img/h2-wave-gelo.svg', @preto); margin-bottom: 40px; }
+		ul{
+			.m0; .p0;
+			li{
+				display: flex; align-items: center;
+				justify-content: space-between; margin-bottom: 20px;
+				img{ margin-right: 10px; }
+				p{ .t16; .w800; .m0; }
+			}
+		}
+	}
+}
+#seclogo{
+	padding-top: 80px; padding-bottom: 80px;
+	.container{
+		.tc;
+		img{
+			width: 240px;
+		}
+	}
+}
+#rodape{
+	.bvermelho; padding-top: 50px; padding-bottom: 100px;
+	.container{
+		span{ .ib; .cbranco; .t14; .mb1; }
+		ul{
+			.m0; .p0; .mb2;
+			li{
+				.ib;
+				a{
+					.ib; .transition; margin-right: 10px;
+					svg{ width: 35px; height: 35px; }
+					&:hover{
+						transform: scale(1.2);
+					}
+				}
+			}
+		}
+		&>a{
+			.ib; .t14; .cbranco; .mb1;
+			&.go{
+				.uc; .t16; .w300;
+			}
 		}
 	}
 }

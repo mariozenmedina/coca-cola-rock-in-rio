@@ -11,12 +11,12 @@
 		</label>
 	</div>
 	<ul>
-		<li><a href="">Construindo juntos um futuro mais sustentável</a></li>
-		<li><a href="">E tem mais!</a></li>
-		<li><a href="">Descartou, juntou, ganhou</a></li>
-		<li><a href="">Nossos números</a></li>
-		<li><a href="">Garrafas retornáveis</a></li>
-		<li><a href="">Quer ficar ainda mais por dentro?</a></li>
+		<li><a class="go" data-go="construindo">Construindo juntos um futuro mais sustentável</a></li>
+		<li><a class="go" data-go="temmais">E tem mais!</a></li>
+		<li><a class="go" data-go="descartou">Descartou, juntou, ganhou</a></li>
+		<li><a class="go" data-go="numeros">Nossos números</a></li>
+		<li><a class="go" data-go="retornaveis">Garrafas retornáveis</a></li>
+		<li><a class="go" data-go="pordentro">Quer ficar ainda mais por dentro?</a></li>
 	</ul>
 </nav>
 <section id="capa">
@@ -256,6 +256,61 @@
 				</div>
 			</div>
 		</div>
+	</div>
+</section>
+<section id="retornaveis">
+	<div class="container">
+		<h2 class="titulo">Garrafas retornáveis</h2>
+		<p>E não acabou não! Na Coca-Cola, 4 em cada 10 garrafas vendidas na América Latina são embalagens retornáveis. Veja como funciona:</p>
+		<h3>As vantagens da garrafa retornável: um hábito cada vez mais inovador</h3>
+		<div class="iframe">
+			<iframe src="https://www.youtube.com/embed/jaxSKBeKcL0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+	</div>
+</section>
+<section id="pordentro">
+	<div class="container">
+		<h2 class="titulo">Quer ficar ainda mais por dentro?</h2>
+		<ul>
+			<li>
+				<img src="./img/pordentro-icon-1.png">
+				<p>Crystal tem primeira garrafa de água mineral produzida apenas com PET reciclado no Brasil</p>
+			</li>
+			<li>
+				<img src="./img/pordentro-icon-2.png">
+				<p>Adeus, economia linear. Bem-vinda, economia circular</p>
+			</li>
+			<li>
+				<img src="./img/pordentro-icon-3.png">
+				<p>Confira nosso Relatório de Sustentabilidade 2020</p>
+			</li>
+		</ul>
+	</div>
+</section>
+<section id="seclogo">
+	<div class="container">
+		<img src="./img/logo-coca-cola-brasil.svg">
+	</div>
+</section>
+<section id="rodape">
+	<div class="container">
+		<span>Acompanhe:</span>
+		<ul>
+			<li><a href=""><?php include './img/ms-fb.php'; ?></a></li>
+			<li><a href=""><?php include './img/ms-tw.php'; ?></a></li>
+			<li><a href=""><?php include './img/ms-ins.php'; ?></a></li>
+			<li><a href=""><?php include './img/ms-yt.php'; ?></a></li>
+			<li><a href=""><?php include './img/ms-in.php'; ?></a></li>
+		</ul>
+		<a href="">Termos de Uso</a><br>
+		<a href="">Privacidade</a><br>
+		<span>Navegue por aqui:</span><br><br>
+		<a class="go" data-go="construindo">Construindo juntos um <br>futuro mais sustentável</a><br>
+		<a class="go" data-go="temmais">E tem mais!</a><br>
+		<a class="go" data-go="descartou">Descartou, juntou, ganhou</a><br>
+		<a class="go" data-go="numeros">Nossos números</a><br>
+		<a class="go" data-go="retornaveis">Garrafas retornáveis</a><br>
+		<a class="go" data-go="pordentro">Quer ficar ainda mais <br>por dentro?</a>
 	</div>
 </section>
 <?php include_once 'footer.php' ?>

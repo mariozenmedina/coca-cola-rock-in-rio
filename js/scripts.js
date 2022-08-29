@@ -62,3 +62,14 @@ function goNumbers(){
 		animateNumber(counters[i], max, dec, sufix, direction, 25);
 	}
 }
+
+var go = document.querySelectorAll(".go");
+for (var i = 0; i < go.length; i++) {
+    go[i].addEventListener("click", function(){
+        var goto = this.dataset.go;
+        document.getElementById(goto).scrollIntoView({ 
+          behavior: 'smooth' 
+        });
+        document.getElementById("menu-inp").checked = false;
+    });
+}

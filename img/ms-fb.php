@@ -1,0 +1,1 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g id="Camada_2" data-name="Camada 2"><g id="Camada_1-2" data-name="Camada 1"><path d="M24,12A12,12,0,1,0,10.05,23.85v-8.4h-3V12h3V9.3c0-3,1.8-4.65,4.5-4.65a14.27,14.27,0,0,1,2.7.3V8h-1.5a1.7,1.7,0,0,0-1.95,1.8V12h3.3l-.6,3.45H13.65V24A12.11,12.11,0,0,0,24,12Z" style="fill:#fff"></path></g></g></svg>
