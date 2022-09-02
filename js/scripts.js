@@ -18,12 +18,6 @@ var numEl = document.getElementById('numeros');
 let numAnimate = true;
 window.addEventListener("scroll", (event) => {
 	let scr = this.scrollY;
-	if(scr > 270){
-		document.getElementById("logo-coca").classList.add('scroll');
-	}
-	if(scr < 250){
-		document.getElementById("logo-coca").classList.remove('scroll');
-	}
 	adjustEl(scr);
 
 	var numElTop = numEl.getBoundingClientRect().top;

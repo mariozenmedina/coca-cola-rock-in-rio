@@ -22,80 +22,116 @@
 <section id="capa">
 	<div class="container">
 		<h1 title="Coca-Cola no Rock in Rio">
-			<img id="logo-coca" src="./img/logo-coca-cola.svg"><br>
-			<span>no</span><br>
+			<img id="logo-coca" src="./img/logo-coca-cola.svg"> 
+			<span>no</span> 
 			<img id="logo-rir" src="./img/logo-rir.png">
 		</h1>
 	</div>
 </section>
+<section id="pre-sobre">
+	<div class="container">
+		<p>Nossas garrafas e copos plásticos usados vão se tornar novas embalagens.</p>
+	</div>
+</section>
 <section id="sobre">
 	<div class="container">
-		<p>Se você chegou até aqui é porque, assim como nós, se preocupa com o meio ambiente. Então fique sabendo: a longevidade da Coca-Cola Brasil só é possível se a nossa forma de trabalhar trouxer ganhos para a sociedade e para o planeta. Aqui você descobrirá o que estamos fazendo para isso se tornar realidade. Muito bem-vindo(a)!</p>
+		<p>No maior festival de música e entretenimento do mundo, a <nobr>Coca-Cola</nobr> está fazendo a economia circular acontecer. Saiba aqui como estamos trabalhando para tornar possível um <nobr>Rock in Rio</nobr> sem resíduos.</p>
 	</div>
 	<div class="image"></div>
 </section>
 <section id="construindo">
 	<div class="container items">
 		<?php include_once './img/construindo-lines.php'; ?>
+		<?php include_once './img/construindo-lines-desktop.php'; ?>
 		<h2 class="titulo">Construindo juntos um futuro mais sustentável</h2>
-		<p>Quando unimos esforços e conhecimento podemos construir uma sociedade mais sustentável. Por isso Braskem, Coca-Cola Heineken®, Natura e Rock in Rio se uniram para mostrar que o descarte correto e a reciclagem do plástico trazem vantagens para todos.</p>
+		<p>Quando unimos esforços e conhecimento podemos construir uma sociedade mais sustentável. Por isso <nobr>Coca-Cola</nobr>, Braskem, Heineken®, Natura e <nobr>Rock in Rio</nobr> se uniram para mostrar que o descarte correto e a reciclagem das embalagens plásticas trazem vantagens para todos.</p>
 		<div class="item-1">
-			<img src="./img/construindo-logo-rir.png">
-			<p>Tudo começa na organização do evento, que faz do desenvolvimento sustentável uma prioridade. Essa parceria com o Rock in Rio possibilita ações de conscientização que começam no festival e vão além, provocando mudanças de comportamento.</p>
+			<img width="152px" src="./img/construindo-logo-rir.png">
+			<p>Tudo começa na organização do evento, que faz do desenvolvimento sustentável uma prioridade. Essa parceria com o <nobr>Rock in Rio</nobr> possibilita ações de conscientização que começam no festival e vão além, provocando mudanças de comportamento.</p>
 		</div>
 		<div class="item-2">
-			<img src="./img/construindo-logo-coca-heineken.png">
-			<p>Estimulam o descarte correto dos milhões de copos plásticos usados nos sete dias de Rock in Rio.</p>
+			<img width="138" src="./img/construindo-logo-coca-heineken.png">
+			<p>Estimulam o descarte correto dos milhões de copos plásticos usados nos sete dias de <nobr>Rock in Rio</nobr>.</p>
 		</div>
 		<div class="item-3">
-			<img src="./img/construindo-logo-braskem.png">
+			<img width="150" src="./img/construindo-logo-braskem.png">
 			<p>Facilita o descarte correto do plástico, coletando os resíduos em seus estandes e estimulando a troca por experiências e brindes exclusivos. Depois do evento, transformará os copos em resina reciclada.</p>
 		</div>
 		<div class="item-4">
-			<img src="./img/construindo-logo-natura.png">
+			<img width="92" src="./img/construindo-logo-natura.png">
 			<p>A resina reciclada será usada na fabricação de embalagens dos produtos natura, transformando o que era resíduo em produto novamente.</p>
 		</div>
 		<h3>Cinco marcas, <br>uma iniciativa:</h3>
-		<p>Mostrar que o plástico pode, e deve, ser reutilizado e voltar à cadeia de consumo. Uma mensagem poderosa que nasce em um dos maiores festivais de música do mundo e continua para além de suas fronteiras, contribuindo para mudanças reais na sociedade.</p>
+		<p>Mostrar que o plástico pode, e deve, ser reutilizado e voltar à cadeia de consumo. Uma mensagem poderosa que nasce no maior festival de música e entretenimento do mundo e continua para além de suas fronteiras, contribuindo para mudanças reais na sociedade.</p>
 	</div>
 </section>
 <section id="temmais">
 	<div class="container">
 		<h2 class="titulo">E tem mais!</h2>
-		<div class="row">
-			<div class="col-12 p0">
-				<img src="./img/temmais-garrafas.png">
-			</div>
-		</div>
+	</div>
+	<div id="garrafas">
+		<img src="./img/temmais-garrafa.png">
+	</div>
+	<div class="container">
 		<h3>156 mil</h3>
-		<p>minigarrafas PET de Coca-Cola usadas durante o festival vão se tornar novas embalagens de <nobr>Coca-Cola</nobr> após reciclagem.</p>
+		<p>minigarrafas PET da <nobr>Coca-Cola</nobr> usadas durante o festival vão se tornar novas embalagens de <nobr>Coca-Cola</nobr> após reciclagem.</p>
+		<small>Pela primeira vez, a logística reversa de um evento desse porte ganha como aliada a tecnologia blockchain, permitindo que cada material descartado seja acompanhado no detalhe - medido, separado, pesado e encaminhado para o destino certo. Com isso, podemos ter a certeza de que cada uma das 156 mil minigarrafas PET da Coca-Cola usadas durante o festival vá para as indústrias recicladoras, gerando renda e inclusão social. Para fazer tudo isso acontecer, contamos com o apoio da ANCAT (Associação Nacional dos Catadores e Catadoras de Materiais Recicláveis) e da Reutiliza Já, que vão usar a experiência e a tecnologia a favor dessa ação ambiental e de inclusão social.</small>
 	</div>
 </section>
 <section id="descartou">
 	<div class="container">
 		<h2 class="titulo">Descartou, juntou, ganhou</h2>
-		<p>Aumente o som e diminua os resíduos! Para que essa iniciativa seja eficaz, contamos com o seu engajamento! Em troca, você ainda ganha brindes, experiências e ajuda o meio ambiente. Bora?</p>
+		<p>Aumente o volume e diminua os resíduos! Para que essa iniciativa seja eficaz, contamos com o seu engajamento! Em troca, você ainda ganha brindes, experiências e ajuda o meio ambiente. Bora?</p>
 		<ul>
 			<li>
 				<img src="./img/n1.svg">
-				<p>Leve o seu plástico para um dos pontos de descarte espalhados pela Cidade do Rock.</p>
+				<p>Leve a sua embalagem plástica para um dos pontos de descarte espalhados pela Cidade do Rock.</p>
 			</li>
 			<li>
 				<img src="./img/n2.svg">
 				<p>Acumule pontos por cada resíduo descartado corretamente (pontos serão computados por CPF).</p>
 			</li>
+			<div class="pontos">
+	        	<img src="./img/pontos/pontos_1.png">
+	        	<img src="./img/pontos/pontos_2.png">
+	        	<img src="./img/pontos/pontos_3.png">
+	        	<img src="./img/pontos/pontos_4.png">
+	        </div>
 			<li>
 				<img src="./img/n3.svg">
-				<p>Troque por brindes e experiências, nos pontos de descarte da Brasken, e siga curtindo o Festival!</p>
+				<p>Troque por brindes e experiências, nos pontos de descarte da Braskem, e siga curtindo o Festival!</p>
 			</li>
 		</ul>
-		<h3>Veja o que pode ganhar:</h3>
+		<div class="pontos-desktop">
+        	<img src="./img/pontos/pontos_1.png">
+        	<img src="./img/pontos/pontos_2.png">
+        	<img src="./img/pontos/pontos_3.png">
+        	<img src="./img/pontos/pontos_4.png">
+        </div>
+		<h3 class="veja">Veja o que pode ganhar:</h3>
 		<div id="slider" class="slider">
             <div class="wrapper">
                 <div id="slides" class="slides">
                 	<?php for($i=1;$i<=13;$i++): ?>
                 	<span class="slide">
                 		<img src="./img/premios/premio_<?php echo $i<10 ? '0'.$i : $i; ?>.png">
+                		<small><?php switch($i){
+                			case 4:
+                				echo 'Voucher que garante acesso sem pegar fila para entrar na loja Natura e trocar por um kit com 6 (seis) batons Natura Faces <nobr>Rock in Rio</nobr>.';
+                				break;
+                			case 5:
+                				echo 'Pulseira que garante acesso sem pegar fila para ativação do Kit Kat.';
+                				break;
+                			case 6:
+                				echo 'Pulseira que garante acesso sem pegar fila para ativação de Doritos.';
+                				break;
+                			case 7:
+                				echo 'Pulseira que garante acesso sem pegar fila para ativação da Coca-Cola.';
+                				break;
+                			case 11:
+                				echo 'Ingresso para Tirolesa Heineken. Pulseira garante apenas o acesso à ativação, sendo necessária a permanência na fila para entrada na atração';
+                				break;
+                		} ?></small>
                 	</span>
                 	<?php endfor; ?>
                 </div>
@@ -103,12 +139,8 @@
             <a id="prev" class="control prev"></a>
 			<a id="next" class="control next"></a>
         </div>
-        <div class="pontos">
-        	<img src="./img/pontos/pontos_1.png">
-        	<img src="./img/pontos/pontos_2.png">
-        	<img src="./img/pontos/pontos_3.png">
-        	<img src="./img/pontos/pontos_4.png">
-        </div>
+        <h3 class="mb1">Saiba onde descartar corretamente os resíduos, acumular pontos e trocar por brindes ou experiências:</h3>
+        <img id="mapa" src="./img/mapa-coleta.png">
 	</div>
 </section>
 <section id="numeros">
@@ -142,7 +174,7 @@
 				<img src="./img/numbers/bottles.svg">
 				<div>
 					<h4 class="counter" data-counter-value="100" data-counter-after="%">100%</h4>
-					<p>das embalagens utilizadas pela Coca-Cola Company serão feitas de material reciclável até 2025.</p>
+					<p>das embalagens utilizadas pela <nobr>Coca-Cola Company</nobr> serão feitas de material reciclável até 2025.</p>
 				</div>
 			</div>
 		</div>
@@ -151,7 +183,7 @@
 			<div class="info">
 				<img src="./img/numbers/coop.svg">
 				<div>
-					<h4 class="counter" data-counter-value="200" data-counter-after="">200</h4>
+					<h4 class="counter" data-counter-value="220" data-counter-after="">220</h4>
 					<p>cooperativas e associações apoiadas.</p>
 				</div>
 			</div>
@@ -166,10 +198,10 @@
 				<img src="./img/numbers/recicle.svg">
 				<div>
 					<h4 class="counter" data-counter-value="330" data-counter-after=" mil">330 mil</h4>
-					<p>toneladas de resíduos recicláveis.</p>
+					<p>toneladas de resíduos recicláveis processados até 2020.</p>
 				</div>
 			</div>
-			<p class="help">*Reciclar pelo Brasil foi lançado em 2017 por meio de uma parceria entre a Coca-Cola Brasil e empresas do setor de alimentos e bebidas.</p>
+			<p class="help">*Reciclar pelo Brasil foi lançado em 2017 por meio de uma parceria entre a <nobr>Coca-Cola Brasil</nobr> e empresas do setor de alimentos e bebidas.</p>
 		</div>
 		<div class="dados dados-3">
 			<h3>Eficiência hídrica</h3>
@@ -202,17 +234,17 @@
 				<img src="./img/numbers/trees.svg">
 				<div>
 					<h4 class="counter" data-counter-value="103" data-counter-after=" mil">103 mil</h4>
-					<p>hectares conservados e protegidos da Floresta e da bacia hidrográfica amazônicas.</p>
+					<p>hectares conservados e protegidos da Floresta e da bacia hidrográfica amazônicas.*</p>
 				</div>
 			</div>
-			<p class="help">*Por meio do investimento viabilizado pela Coca-Cola na iniciativa em parceria com a Fundação Amazônia Sustentável (FAS).</p>
+			<p class="help">*Por meio do investimento viabilizado pela <nobr>Coca-Cola</nobr> na iniciativa em parceria com a Fundação Amazônia Sustentável (FAS).</p>
 		</div>
 		<div class="dados dados-5">
 			<h3>Água+acesso</h3>
 			<div class="info">
 				<img src="./img/numbers/people.svg">
 				<div>
-					<h4 class="counter" data-counter-value="130" data-counter-after=" mil">130 mil</h4>
+					<h4 class="counter" data-counter-value="132" data-counter-after=" mil">132 mil</h4>
 					<p>pessoas beneficiadas.</p>
 				</div>
 			</div>
@@ -230,7 +262,7 @@
 					<p>estados brasileiros.</p>
 				</div>
 			</div>
-			<p class="help">*Programa para contribuir com a ampliação e melhoria do acesso à água tratada em comunidades rurais e isoladas do país.</p>
+			<p class="help">*Programa para contribuir com a ampliação e melhoria do acesso à água tratada em comunidades rurais e isoladas do país. Números até 2020.</p>
 		</div>
 		<div class="dados dados-6">
 			<h3>Energia e clima</h3>
@@ -245,7 +277,7 @@
 				<img src="./img/numbers/bottles.svg">
 				<div>
 					<h4 class="counter" data-counter-value="33" data-counter-after="%">33%</h4>
-					<p>da energia consumida pela Solar, nossa engarrafadora, foi proveniente de fontes renováveis.</p>
+					<p>da energia consumida pela Solar, nossa engarrafadora, foi proveniente de fontes renováveis em 2020.</p>
 				</div>
 			</div>
 			<div class="info">
@@ -261,7 +293,7 @@
 <section id="retornaveis">
 	<div class="container">
 		<h2 class="titulo">Garrafas retornáveis</h2>
-		<p>E não acabou não! Na Coca-Cola, 4 em cada 10 garrafas vendidas na América Latina são embalagens retornáveis. Veja como funciona:</p>
+		<p>E não acabou não! Na <nobr>Coca-Cola</nobr>, 4 em cada 10 garrafas vendidas na América Latina são embalagens retornáveis. Veja como funciona:</p>
 		<h3>As vantagens da garrafa retornável: um hábito cada vez mais inovador</h3>
 		<div class="iframe">
 			<iframe src="https://www.youtube.com/embed/jaxSKBeKcL0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -274,15 +306,21 @@
 		<ul>
 			<li>
 				<img src="./img/pordentro-icon-1.png">
-				<p>Crystal tem primeira garrafa de água mineral produzida apenas com PET reciclado no Brasil</p>
+				<a href="https://www.cocacolabrasil.com.br/historias/marcas/crystal-tem-primeira-garrafa-de-agua-mineral-produzida-apenas-co" target="_blank">
+					<p>Crystal tem primeira garrafa de água mineral produzida apenas com PET reciclado no Brasil</p>
+				</a>
 			</li>
 			<li>
 				<img src="./img/pordentro-icon-2.png">
-				<p>Adeus, economia linear. Bem-vinda, economia circular</p>
+				<a href="https://www.cocacolabrasil.com.br/historias/sustentabilidade/adeus--economia-linear--bem-vinda--economia-circular" target="_blank">
+					<p>Adeus, economia linear. Bem-vinda, economia circular</p>
+				</a>
 			</li>
 			<li>
 				<img src="./img/pordentro-icon-3.png">
-				<p>Confira nosso Relatório de Sustentabilidade 2020</p>
+				<a href="https://www.cocacolabrasil.com.br/historias/sustentabilidade/destaques-do-relatorio-de-sustentabilidade-2020" target="_blank">
+					<p>Confira nosso Relatório de Sustentabilidade 2020</p>
+				</a>
 			</li>
 		</ul>
 	</div>
@@ -294,23 +332,29 @@
 </section>
 <section id="rodape">
 	<div class="container">
-		<span>Acompanhe:</span>
-		<ul>
-			<li><a href=""><?php include './img/ms-fb.php'; ?></a></li>
-			<li><a href=""><?php include './img/ms-tw.php'; ?></a></li>
-			<li><a href=""><?php include './img/ms-ins.php'; ?></a></li>
-			<li><a href=""><?php include './img/ms-yt.php'; ?></a></li>
-			<li><a href=""><?php include './img/ms-in.php'; ?></a></li>
-		</ul>
-		<a href="">Termos de Uso</a><br>
-		<a href="">Privacidade</a><br>
-		<span>Navegue por aqui:</span><br><br>
-		<a class="go" data-go="construindo">Construindo juntos um <br>futuro mais sustentável</a><br>
-		<a class="go" data-go="temmais">E tem mais!</a><br>
-		<a class="go" data-go="descartou">Descartou, juntou, ganhou</a><br>
-		<a class="go" data-go="numeros">Nossos números</a><br>
-		<a class="go" data-go="retornaveis">Garrafas retornáveis</a><br>
-		<a class="go" data-go="pordentro">Quer ficar ainda mais <br>por dentro?</a>
+		<div class="flex-desktop">
+			<div>
+				<span>Acompanhe:</span>
+				<ul>
+					<li><a href=""><?php include './img/ms-fb.php'; ?></a></li>
+					<li><a href=""><?php include './img/ms-tw.php'; ?></a></li>
+					<li><a href=""><?php include './img/ms-ins.php'; ?></a></li>
+					<li><a href=""><?php include './img/ms-yt.php'; ?></a></li>
+					<li><a href=""><?php include './img/ms-in.php'; ?></a></li>
+				</ul>
+				<a href="">Termos de Uso</a><br>
+				<a href="">Privacidade</a><br>
+			</div>
+			<div>
+				<span>Navegue por aqui:</span><br><br>
+				<a class="go" data-go="construindo">Construindo juntos um <br>futuro mais sustentável</a><br>
+				<a class="go" data-go="temmais">E tem mais!</a><br>
+				<a class="go" data-go="descartou">Descartou, juntou, ganhou</a><br>
+				<a class="go" data-go="numeros">Nossos números</a><br>
+				<a class="go" data-go="retornaveis">Garrafas retornáveis</a><br>
+				<a class="go" data-go="pordentro">Quer ficar ainda mais <br>por dentro?</a>
+			</div>
+		</div>
 	</div>
 </section>
 <?php include_once 'footer.php' ?>
